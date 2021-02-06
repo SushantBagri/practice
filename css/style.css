@@ -1,6 +1,6 @@
 body{
     background-color: #F9F9F9;
-    font-size: 20px;
+    font-size: 1.2vw;
 }
 
 @font-face{
@@ -19,6 +19,21 @@ body{
     src: url(/font/SF-Pro-Display/SF-Pro-Display-Medium.otf);
     font-family: srfMed;
 }
+@font-face{
+    src: url(/font/SF-Pro-Display/SF-Pro-Display-Light.otf);
+    font-family: srfLight;
+}
+@font-face{
+    src: url(/font/SF-Pro-Display/SF-Pro-Display-Black.otf);
+    font-family: srfBlack;
+}
+
+.srfBlack{
+    font-family: srfBlack;
+}
+.srfLight{
+    font-family: srfLight;
+}
 .sfpBold{
     font-family: sfpBold;
 }
@@ -29,6 +44,10 @@ body{
 
 .sfpReg{
     font-family: sfpRegural;
+}
+.sfpItc{
+    font-family: sfpRegural;
+    font-style: italic;
 }
 .srfMed{
     font-family: srfMed;
@@ -92,4 +111,38 @@ body{
     color: #555555;
     border: none;
     font-size: 14px;
+}
+
+.fruit_banner{
+    background: #3BD28C;
+    box-shadow: 0px 10px 30px #00000008;
+    border-radius: 20px;
+    position: relative;
+    height: 43vh;
+}
+.fruit_banner_img{
+    position: absolute;
+    width: 40vw;
+    bottom: 0;
+    right: 3%;
+    object-fit: cover;
+}
+.top_title{
+    font-size: 1.4vw;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.frt_ban_head{
+    font-size: 4rem;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.order_btn{
+    background: #FFBB44 0% 0%;
+    border-radius: 32px;
+    letter-spacing: 4.62px;
+    color: #FFFFFF;
+    text-transform: uppercase;  
+    font-size: 19px;
 }
